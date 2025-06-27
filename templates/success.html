@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Successful</title>
+    <style>
+        body {
+            background-color: #f4f6f9;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .success-box {
+            background-color: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+        }
+        h2 {
+            color: #28a745;
+            margin-bottom: 10px;
+        }
+        h3 {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+<div class="success-box">
+    <h2>Form submitted successfully!</h2>
+    <h3>Welcome, {{ name }} 🎉</h3>
+</div>
+
+</body>
+</html>
